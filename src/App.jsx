@@ -6,6 +6,10 @@ import Confetti from "react-confetti"
 
 
 export default function App() {
+
+    localStorage.setItem("lowesRoll", 0)
+
+    
     const [dice, setDice] = React.useState(newDies())
     const [tenzies, setTenzies] = React.useState(false)
     const [howPlay, setHowPlay] = React.useState(false)
