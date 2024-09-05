@@ -1,6 +1,6 @@
 import React from "react";
 import { nanoid } from "nanoid";
-import Die from "./Die.jsx";
+import Die from "./pages/Die.jsx";
 import How from "./pages/HowToPlay.jsx";
 import Confetti from "react-confetti"
 
